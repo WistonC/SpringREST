@@ -12,9 +12,11 @@ Content-Type: application/json
     "firstName": "Jack",
     "lastName": "Dose",
     "email": "A@a.a",
+  "address": {
     "addressLine": "1 Queen Street",
     "city": "Toronto",
     "postalCode": "M5H 2N2"
+  }
 }
 
 ### POST request to Login a user
