@@ -1,0 +1,22 @@
+### GET request to Hello World
+GET http://localhost:8080/greeting?content=world
+
+### POST request to Register a user
+POST http://localhost:8080/user/register?firstName=John&lastName=Dose&email=John.D@on.ca&password=password
+
+### POST request to Register a user
+POST http://localhost:8080/user/register
+Content-Type: application/json
+
+{
+    "firstName": "Jack",
+    "lastName": "Dose",
+    "email": "A@a.a",
+    "addressLine": "1 Queen Street",
+    "city": "Toronto",
+    "postalCode": "M5H 2N2"
+}
+
+### POST request to Login a user
+GET https://geogratis.gc.ca/services/geoname/en/geonames.json?province=35&concise=CITY&select=name
+Accept: application/json
