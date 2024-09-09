@@ -100,6 +100,11 @@
             <name>Maven Central</name>
             <url>https://repo.maven.apache.org/maven2/</url>
         </repository>
+        <repository>
+            <id>spring-releases</id>
+            <name>Spring Release</name>
+            <url>https://repo.spring.io/libs-release</url>
+        </repository>
     </repositories>
     <pluginRepositories>
         <pluginRepository>
