@@ -16,6 +16,7 @@
         <java.version>17</java.version>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
+        <start-class>org.tao.App</start-class>
     </properties>
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web -->
@@ -64,7 +65,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>3.3.3</version>
                 <configuration>
-                    <mainClass>com.tao.App</mainClass>
+                    <mainClass>org.tao.App</mainClass>
                 </configuration>
             </plugin>
             <plugin>
@@ -84,7 +85,7 @@
                             </descriptorRefs>
                             <archive>
                                 <manifest>
-                                    <mainClass>com.tao.App</mainClass>
+                                    <mainClass>org.tao.App</mainClass>
                                 </manifest>
                             </archive>
                         </configuration>

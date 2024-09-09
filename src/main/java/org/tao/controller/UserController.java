@@ -1,9 +1,10 @@
-package org.tao;
+package org.tao.controller;
 
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
+import org.tao.model.User;
 
 @RestController
 public class UserController {

@@ -1,4 +1,4 @@
-package org.tao;
+package org.tao.model;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

@@ -1,4 +1,4 @@
-package org.tao;
+package org.tao.model;
 public class Address {
     private String addressLine;
     private String city;
